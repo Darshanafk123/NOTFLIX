@@ -10,18 +10,4 @@ body {
   min-height: 100vh;
 }
 
-/* Navbar styling */
-.navbar {
-  display: flex;
-  align-items: center;
-  padding: 20px 40px;
-  background-color: #000000;
-}
-
-/* Logo styling */
-.logo {
-  color: red;
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0;
-}
+/* Navbar styles moved to components/Navbar.css */

@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;  /* pushes items to opposite sides */
+  align-items: flex-start;         /* aligns them to the top */
+  padding: 20px 40px;
+  background-color: #000000;
+}
+
+.logo {
+  color: red;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.filter-input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(23, 1, 1, 0.878);
+  background: #0e0101;
+  color: #fff;
+  outline: none;
+}
+
+.filter-select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: #110202;
+  color: #fff;
+}
+.body {
+  margin: 0;
+  background-color: #000000; /* Pitch black */
+  font-family: Arial, sans-serif;
+}
