@@ -18,6 +18,7 @@ export default function Navbar() {
           <option>2025</option>
           <option>2024</option>
         </select>
+        
       </div>
     </nav>
   )
