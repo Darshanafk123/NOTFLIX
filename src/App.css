@@ -8,6 +8,10 @@ body {
 /* Make app take full screen */
 .app {
   min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
 }
 
 /* Navbar styles moved to components/Navbar.css */
